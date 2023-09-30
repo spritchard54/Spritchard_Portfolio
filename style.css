@@ -1,0 +1,32 @@
+header{
+    background-color: darkblue;
+    color: white;
+}
+
+nav{
+    background-color: orange;
+    color: white;
+    height: 150%;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: right;
+    min-width: 300px;
+  }
+  
+  nav a{
+    color: #b9C6ae;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  nav a:hover{
+    color: #fff;
+  }
+
+h1{
+   font-size: 200%;
+   padding: 1% 5% 1% 2%;
+}
