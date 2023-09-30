@@ -1,13 +1,21 @@
 header{
-    background-color: darkblue;
+    background-color: #0b162a;
     color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h2{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-style: italic;
 }
 
 nav{
-    background-color: orange;
+    background-color: #d83e00;
     color: white;
     height: 150%;
-
+    font-size: 120%;
 }
 
 nav ul{
@@ -15,18 +23,101 @@ nav ul{
     justify-content: right;
     min-width: 300px;
   }
+
+nav ul li{
+    margin: 1%;
+}
   
   nav a{
-    color: #b9C6ae;
+    color: white;
     font-weight: bold;
     text-decoration: none;
   }
   
   nav a:hover{
-    color: #fff;
+    color: #223e73;
   }
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 h1{
    font-size: 200%;
-   padding: 1% 5% 1% 2%;
+   padding: 2% 2%;
+}
+
+h2{
+    font-size: 180%;
+    padding: 1% 5% 1% 0%;
+ }
+
+img{
+    width: 100%;
+    
+}
+
+.leftcol{
+    flex: 1 0 100%;
+    max-width: 25%;
+    padding-right: 1%;
+    border-right: 3px solid #0b162a;
+    
+}
+
+#aboutme{
+    background-color: white;
+    max-width: 75%;
+    padding: 1%;
+}
+
+#mywork{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgray;
+}
+
+.tile{
+    flex: 2 1 40%;
+    border: 5px solid white;
+    padding: 1%;
+    margin: 1%;    
+    }
+
+#contactme{
+    flex: 1 0 100%;
+    background-color: darkgray;
+    padding: 2%;
+}
+
+#contactme ul li{
+    display: inline;
+    padding-right: 5%;
+}
+footer{
+    background-color: #0b162a;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 1%;
+
+}
+
+.sechead{
+    margin-top: 50%;
+    margin-bottom: 50%;
+    padding: auto;
+    text-align: center;
+}
+
+.spacer{
+    margin: 1%;
+}
+
+.samwrk{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 75%;
 }
