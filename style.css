@@ -198,9 +198,9 @@ p{
     position: absolute;
     z-index: 1;
     display: block;
-    width: 80%;
+    width: 73%;
     height: 77%;
-    /* border: 5px solid red; */
+    border: 5px solid red;
 }
 
 
