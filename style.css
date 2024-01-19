@@ -116,8 +116,12 @@ p{
     flex: 2 1 40%;
     padding: 0% 0% 2% 0%;
     margin: 1%; 
-    background-image: url("images/Screenshot\ 2023-10-03\ at\ 11.16.19\ PM.png");
-    border: 4px solid #5C95FF;
+    /* background-image: url("images/Screenshot\ 2023-10-03\ at\ 11.16.19\ PM.png");
+    border: 4px solid #5C95FF; */
+    background-image: url("images/Screenshot\ 2023-11-10\ at\ 9.36.47\ AM.png");
+    background-size: 125%;
+    background-position: -20px -20px;
+    border: 4px solid #5C95FF;  
     }
 
 .tile1 a{
@@ -186,11 +190,12 @@ p{
 .ftile{
     flex: 2 1 100%;
     padding: 0% 1% 0% 0%;
-    margin: 1%; 
-    background-image: url("images/Screenshot\ 2023-11-10\ at\ 9.36.47\ AM.png");
-    background-size: 105%;
-    background-position: center;
-    border: 4px solid #5C95FF;        
+    margin: 1%;
+    background-image: url("images/Screenshot\ 2024-01-15\ at\ 7.37.26\ PM.png");
+    background-size: 125%;
+    background-position: -20px -20px;
+    border: 4px solid #5C95FF;   
+      
 }
 
 /* style applied to featured work tile that allows the background to hyerlink to content */
