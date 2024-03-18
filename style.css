@@ -1,41 +1,41 @@
-header{
+header {
     background-color: #0b162a;
     color: white;
     display: flex;
     justify-content: space-between;
 }
 
-header h3{
+header h3 {
     margin: auto 3%;
     font-style: italic;
     font-size: 125%;
 }
 
-header ul{
+header ul {
     display: flex;
     justify-content: right;
     min-width: 50%;
-  }
+}
 
-header ul li{
+header ul li {
     margin: 5% 3%;
 }
-  
-header a{
+
+header a {
     color: white;
     font-weight: bold;
-  }
-  
-header a:hover{
-    color: #EDB63E;
-  }
+}
 
-#container{
+header a:hover {
+    color: #EDB63E;
+}
+
+#container {
     display: flex;
     flex-wrap: wrap;
 }
 
-#slug{
+#slug {
     background-color: #3F516E;
     background-image: url("images/68099066760__0D9DABA2-E6E2-4F91-A615-1DE8DF1D740F.jpeg");
     background-size: 100%;
@@ -50,7 +50,7 @@ header a:hover{
     padding: 3% 5%;
 }
 
-#slug h3{
+#slug h3 {
     position: relative;
     left: 70%;
     width: 45%;
@@ -59,194 +59,211 @@ header a:hover{
     font-weight: bolder;
     background-color: #0b162a;
     padding: 1% 1%;
-    
+
 }
 
-h1{
-   font-size: 200%;
-   padding: 2% 2%;
+h1 {
+    font-size: 200%;
+    padding: 2% 2%;
 }
 
-h2{
+h2 {
     font-size: 180%;
     padding: 1% 5% 1% 0%;
- }
+}
 
-img{
+img {
     width: 50%;
     border-radius: 100%;
     margin: 5% 23%;
-    
-    
+    box-shadow: 10px 10px 50px -20px black;
+
+
 }
 
-.leftcol{
+.leftcol {
     flex: 1 0 100%;
     max-width: 25%;
     padding-right: 1%;
     border-right: 3px solid #0b162a;
     background-color: white;
-    
+
 }
 
-p{
+p {
     font-size: 110%;
     line-height: 150%;
 }
 
 
-#aboutme{
+#aboutme {
     max-width: 75%;
     padding: 1%;
 }
 
-#mywork{
+#mywork {
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 
-#contactme{
+#contactme {
     display: flex;
     flex-wrap: wrap;
 }
 
+.backgroundImage {
+    /* Ourspace */
+    --bgimage1: url("images/Screenshot\ 2024-01-15\ at\ 7.37.26\ PM.png");
+    /* Portfolio */
+    --bgimage2: url("images/Screenshot\ 2023-11-10\ at\ 9.36.47\ AM.png");
+    /* ActivateMe */
+    --bgimage3: url("images/Screenshot\ 2024-03-18\ at\ 5.50.10\ PM.png");
+    /* Portfolio */
+    --bgimage4: url("images/Screenshot\ 2023-10-03\ at\ 11.14.46\ PM.png");
 
-.tile1{
-    flex: 2 1 40%;
-    padding: 0% 0% 2% 0%;
-    margin: 1%; 
-    /* background-image: url("images/Screenshot\ 2023-10-03\ at\ 11.16.19\ PM.png");
-    border: 4px solid #5C95FF; */
-    background-image: url("images/Screenshot\ 2023-11-10\ at\ 9.36.47\ AM.png");
-    background-size: 125%;
-    background-position: -20px -20px;
-    border: 4px solid #5C95FF;  
-    }
+    --bgimage5: url("images/Screenshot\ 2023-10-03\ at\ 11.10.23\ PM.png");
+}
 
-.tile1 a{
-    position: absolute;
-    z-index: 1;
-    display: block;
-    width: 35.5%;
-    height: 23%;
+.tile-background {
+
+    position: relative;
 
 }
 
-.tile2{
-    flex: 2 1 40%;
-    padding: 0% 0% 2% 0%;
-    margin: 1%; 
-    background-image: url("images/Screenshot\ 2023-10-03\ at\ 11.14.46\ PM.png");
-    background-size: 102%;
-    border: 4px solid #5C95FF;
-    }
 
-.tile2 a{
-    position: absolute;
-    z-index: 1;
-    display: block;
-    width: 35.5%;
-    height: 23%;
-
-}
-
-.tile3{
-    flex: 2 1 40%;
-    padding: 0% 0% 2% 0%;
-    margin: 1%; 
-    background-image: url("images/Screenshot\ 2023-10-03\ at\ 11.10.23\ PM.png");
-    background-size: cover;
-    border: 4px solid #5C95FF;
-    }
-
-.tile3 a{
-    position: absolute;
-    z-index: 1;
-    display: block;
-    width: 35.5%;
-    height: 23%;
-}
-
-
-.tile4{
-    flex: 2 1 40%;
-    padding: 0% 0% 2% 0%;
-    margin: 1%; 
-    background-image: url("images/Screenshot\ 2023-10-03\ at\ 11.13.31\ PM.png");
-    border: 4px solid #5C95FF;
-    }
-
-.tile4 a{
-    position: absolute;
-    z-index: 1;
-    display: block;
-    width: 35.5%;
-    height: 23%;
-}
-    
-
-
-.ftile{
+.ftile {
     flex: 2 1 100%;
     padding: 0% 1% 0% 0%;
     margin: 1%;
-    background-image: url("images/Screenshot\ 2024-01-15\ at\ 7.37.26\ PM.png");
-    background-size: 125%;
+    border: 4px solid #5C95FF;
+    background-image: var(--bgimage3);
+    background-size: 100%;
     background-position: -20px -20px;
-    border: 4px solid #5C95FF;   
-      
+
 }
 
-/* style applied to featured work tile that allows the background to hyerlink to content */
-.ftile a{
+/* style applied to <a> on featured work tile that allows the background to hyerlink to content */
+.ftile a {
     position: absolute;
     z-index: 1;
     display: block;
-    width: 73%;
-    height: 77%;
+    width: 100%;
+    height: 100%;
     /* border: 5px solid red; */
 }
 
 
-.tile1 h3{
-    color: white;   
-    font-size: larger;
-    background-color: #5C95FF;
-    width: 55%;
-    padding: 2% 2%;
-    margin-top: 20%;
-    }
+.tile1 {
+    flex: 2 1 40%;
+    padding: 0% 0% 2% 0%;
+    margin: 1%;
+    background-image: var(--bgimage1);
+    background-size: 105%;
+    background-position: -20px -20px;
+    border: 4px solid #5C95FF;
+}
 
-.tile2 h3{
-    color: white;   
-    font-size: larger;
-    background-color: #5C95FF;
-    width: 55%;
-    padding: 2% 2%;
-    margin-top: 20%;
-    }
+.tile1 a {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
 
-.tile3 h3{
-    color: white;   
-    font-size: larger;
-    background-color: #5C95FF;
-    width: 55%;
-    padding: 2% 2%;
-    margin-top: 20%;
-    }
+}
 
-.tile4 h3{
-    color: white;   
+.tile2 {
+    flex: 2 1 40%;
+    padding: 0% 2% 2% 0%;
+    margin: 1%;
+    background-image: var(--bgimage2);
+    background-size: 110%;
+    border: 4px solid #5C95FF;
+}
+
+.tile2 a {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+
+.tile3 {
+    flex: 2 1 40%;
+    padding: 0% 0% 2% 0%;
+    margin: 1%;
+    background-image: url("images/Screenshot\ 2023-10-03\ at\ 11.10.23\ PM.png");
+    background-size: cover;
+    border: 4px solid #5C95FF;
+}
+
+.tile3 a {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.tile4 {
+    flex: 2 1 40%;
+    padding: 0% 0% 2% 0%;
+    margin: 1%;
+    background-image: url("images/Screenshot\ 2024-03-18\ at\ 7.42.30\ PM.png");
+    border: 4px solid #5C95FF;
+}
+
+.tile4 a {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.tile1 h3 {
+    color: white;
     font-size: larger;
     background-color: #5C95FF;
     width: 55%;
     padding: 2% 2%;
     margin-top: 20%;
-    }
-    
-.ftile h3{
-    color: white;   
+}
+
+.tile2 h3 {
+    color: white;
+    font-size: larger;
+    background-color: #5C95FF;
+    width: 55%;
+    padding: 2% 2%;
+    margin-top: 20%;
+}
+
+.tile3 h3 {
+    color: white;
+    font-size: larger;
+    background-color: #5C95FF;
+    width: 55%;
+    padding: 2% 2%;
+    margin-top: 20%;
+}
+
+.tile4 h3 {
+    color: white;
+    font-size: larger;
+    background-color: #5C95FF;
+    width: 55%;
+    padding: 2% 2%;
+    margin-top: 20%;
+}
+
+.ftile h3 {
+    color: white;
     font-size: larger;
     background-color: #5C95FF;
     width: 35%;
@@ -255,7 +272,7 @@ p{
 
 }
 
-.contdetails{
+.contdetails {
     flex: 1 0 100%;
     max-width: 75%;
     padding: 1%;
@@ -263,13 +280,13 @@ p{
 
 }
 
-#contactme ul li{
+#contactme ul li {
     display: inline;
     padding-right: 5%;
 }
 
 
-footer{
+footer {
     background-color: #0b162a;
     color: white;
     text-align: center;
@@ -278,21 +295,21 @@ footer{
 
 }
 
-.sechead_one{
+.sechead_one {
     margin: auto;
     padding: auto;
     text-align: center;
     color: #A1710A;
 }
 
-.sechead{
+.sechead {
     margin-top: 5%;
     padding: auto;
     text-align: center;
     color: #A1710A;
 }
 
-.sechead_con{
+.sechead_con {
     margin-top: 10%;
     margin-bottom: 10%;
     padding: auto;
@@ -300,11 +317,11 @@ footer{
     color: #A1710A;
 }
 
-.spacer{
+.spacer {
     margin: 1%;
 }
 
-.samwrk{
+.samwrk {
     display: flex;
     flex-wrap: wrap;
     flex: 1 0 75%;
@@ -315,7 +332,11 @@ footer{
     color: white;
 }
 
-.samwrk a:hover{
+.samwrk a:hover {
     color: #EDB63E;
 }
 
+/* bax shadow: Horizontal, Veritical, Blur, Spread */
+.tileTitle {
+    box-shadow: 10px 20px 50px -10px black;
+}
