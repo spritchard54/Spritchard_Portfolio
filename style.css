@@ -6,6 +6,11 @@ html {
     min-height: 100vh;
 }
 
+p {
+    margin-bottom: 10px;
+    line-height: 150%;
+}
+
 h2 {
     font-size: 300%;
     text-align: right;
