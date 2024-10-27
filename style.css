@@ -45,7 +45,6 @@ header ul li a {
 header a:hover {
     color: gold;
     margin: 10px;
-
 }
 
 /* content */
@@ -69,25 +68,18 @@ header a:hover {
     background-color: rgb(14, 8, 55);
     color: #f9aa00;
     font-size: 120%;
-
 }
 
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    /* background-color: lightblue; */
 }
 
 .aboutMe {
-    display: flex;
-    justify-content: end;
-    /* flex-direction: column; */
-    flex-wrap: wrap;
     width: 25%;
     color: #A1710A;
     margin-top: 25px;
     padding: 0px 25px;
-
 }
 
 .profileImg {
@@ -102,12 +94,10 @@ header a:hover {
     width: 75%;
     margin-top: 25px;
     padding: 0px 35px 20px 0;
-    /* background-color: beige; */
 }
 
 
 .myWork {
-    /* background-color: bisque; */
     width: 25%;
     color: #A1710A;
     padding: 0px 25px;
@@ -118,9 +108,8 @@ header a:hover {
     display: flex;
     flex-wrap: wrap;
     column-gap: 1%;
-    /* background-color: yellow; */
     width: 75%;
-    
+
 }
 
 .workItem {
@@ -149,8 +138,8 @@ header a:hover {
     bottom: 25px;
     padding-left: 15px;
     background-color: #5a95fe;
-    min-width: 200px;
-    min-height: 50px;
+    width: 200px;
+    height: 50px;
 }
 
 .workItem a {
@@ -158,45 +147,17 @@ header a:hover {
     text-decoration: none;
 }
 
-/* .activateMe {
-    background-image: url(images/activateMe.png);
-    background-size: cover;
-    min-height: 300px;
-}
-
-.ourSpace {
-    background-image: url(images/ourSpace.png);
-    background-size: cover;
-    min-height: 300px;
-}
-
-.whatsForDinner {
-    background-image: url(images/w4d.png);
-    background-size: cover;
-    min-height: 300px;
-}
-
-.weather {
-    background-image: url(images/weather.png);
-    background-size: cover;
-    min-height: 300px;
-} */
-
 .contactHeader {
     width: 25%;
     color: #A1710A;
     margin: 25px 0;
     padding: 0px 25px;
-    text-align: center;
-    /* background-color: orange; */
-
 }
 
 .contactDetails {
     display: flex;
     align-items: center;
     width: 75%;
-    /* background-color: cadetblue; */
     padding: 15px;
     min-height: 75px;
 }
@@ -212,4 +173,69 @@ footer {
     min-width: 100%;
     padding: 20px 10px;
     background-color: lightgray;
+}
+
+@media only screen and (max-width: 430px) {
+
+    header h1 {
+        margin-left: 10px;
+    }
+
+    header ul {
+        margin-top: 10px;
+    }
+
+
+    .profileImg {
+        height: 100px;
+        margin-left: 10px;
+    }
+
+    .aboutMe {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    h2 {
+        margin: 10px 20px;
+        text-align: left;
+        font-size: 150%;
+    }
+
+    .aboutMeText {
+        min-width: 100%;
+        margin: 0;
+    }
+
+    .aboutMeText p {
+        padding: 0 20px;
+    }
+
+    .myWork {
+        min-width: 100%;
+        padding: 0;
+    }
+
+    .overlay {
+        display: none;
+    }
+
+    .workContainer {
+        width: 100%;
+    }
+
+    .workItem {
+        margin-left: 20px;
+    }
+
+    .workItem img {
+        max-height: 225px;
+    }
+
+    .contactHeader {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
 }
